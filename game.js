@@ -45,7 +45,7 @@ function checkAnswer(currentlevel)
          setTimeout(function(){
              $("body").removeClass("game-over")
             },200);
-            $("h1").text("Game over! Start new game");
+            $("h1").text("Game over! Press any key to startover");
             startOver();
 }
 
